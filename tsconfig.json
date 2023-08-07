@@ -1,0 +1,4 @@
+{
+  "moduleResolution": "node",
+  "extends": "astro/tsconfigs/strict"
+}
