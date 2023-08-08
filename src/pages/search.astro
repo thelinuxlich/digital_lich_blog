@@ -7,7 +7,7 @@ import SearchInput from '../components/SearchInput.astro'
 
 let pageTitle = 'Search';
 let pageDescription = 'Search all Articles';
-let seoTitle = 'Search | Creek';
+let seoTitle = 'Search | Digital Lich';
 let seoDescription = '';
 ---
 
@@ -16,10 +16,10 @@ let seoDescription = '';
     <BaseHead title={seoTitle} description={seoDescription} />
   </head>
 
-  <body class="bg-white text-black font-body leading-normal personality-casual">
+  <body class="leading-normal text-black bg-white font-body personality-casual">
     <Nav />
     <main class="py-12 lg:py-20">
-      <article class="max-w-6xl mx-auto px-3" content>
+      <article class="max-w-6xl px-3 mx-auto" content>
         <HomeHeader title={pageTitle} description={pageDescription} />
         <SearchInput />
       </article>

@@ -5,8 +5,8 @@ const posts = Object.values(postImportResult);
 
 export const get = () =>
   rss({
-    title: "Astro Theme Creek",
-    description: "A Theme for Astro",
+    title: "Digital Lich",
+    description: "A blog about software development, where I share some of my thoughts and discoveries.",
     site: import.meta.env.SITE,
     items: import.meta.glob("./posts/**/*.md"),
   });
