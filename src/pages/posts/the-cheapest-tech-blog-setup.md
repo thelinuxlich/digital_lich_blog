@@ -1,6 +1,6 @@
 ---
 title: "The Cheapest Tech Blog Setup"
-description: "We're excited to announce Astro as a new way to build static websites and deliver lightning-fast performance without sacrificing a modern developer experience."
+description: "How I set up this blog with Astro, Fly.io, Gisqus and Umami."
 pubDate: "2023-08-09"
 hero: "/images/business-money-pink-coins.webp"
 tags: ["astro", "fly.io", "gisqus", "blog", "static", "jamstack", "umami"]
