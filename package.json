@@ -2,7 +2,7 @@
   "name": "digitallich",
   "version": "1.0.0",
   "scripts": {
-    "deploy": "flyctl deploy ./dist -c ./fly.toml -a cool-brook-6826",
+    "deploy": "flyctl deploy",
     "dev": "astro dev",
     "start": "astro dev",
     "build": "astro build",
